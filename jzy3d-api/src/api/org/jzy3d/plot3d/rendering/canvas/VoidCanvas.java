@@ -8,8 +8,8 @@ import org.jzy3d.plot3d.rendering.scene.Scene;
 import org.jzy3d.plot3d.rendering.view.Renderer3d;
 import org.jzy3d.plot3d.rendering.view.View;
 
-import com.jogamp.opengl.GLDrawable;
-import com.jogamp.opengl.util.texture.TextureData;
+import javax.media.opengl.GLDrawable;
+import javax.media.opengl.util.texture.TextureData;
 
 public class VoidCanvas implements ICanvas{
     public VoidCanvas(IChartComponentFactory factory, Scene scene, Quality quality) {
